@@ -1,0 +1,13 @@
+# Changes here will be overwritten by Copier
+_commit: 0.1.16
+_src_path: gh:12rambau/pypackage
+author_email: fitoprincipe82@gmail.com
+author_first_name: Rodrigo
+author_last_name: Principe
+author_orcid: 0000-0000-0000-0000
+creation_year: "2025"
+github_repo_name: eebit
+github_user: fitoprincipe
+project_name: eebit
+project_slug: eebit
+short_description: read / decode / write bit information encoded in GEE images

@@ -1,0 +1,4 @@
+Usage
+=====
+
+**eebit** usage documentation.
