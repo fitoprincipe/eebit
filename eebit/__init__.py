@@ -5,16 +5,4 @@ __author__ = "Rodrigo Principe"
 __email__ = "fitoprincipe82@gmail.com"
 
 
-class Hello:
-    """Hello world class."""
-
-    msg = "hello world !"
-    "the message to print"
-
-    def hello_world(self) -> str:
-        """Hello world demo method.
-
-        Returns:
-            the hello world string
-        """
-        return self.msg
+from .bitmask import BitMask

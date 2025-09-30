@@ -1,0 +1,372 @@
+features:
+- geometry:
+    coordinates:
+    - -71.518599
+    - -43.128463
+    type: Point
+  id: '0'
+  properties:
+    QA_PIXEL: 21824
+    QA_RADSAT: 0
+    SR_B1: 8475
+    SR_B2: 8851
+    SR_B3: 9942
+    SR_B4: 10703
+    SR_B5: 20646
+    SR_B6: 14717
+    SR_B7: 10912
+    SR_QA_AEROSOL: 96
+    ST_ATRAN: 8246
+    ST_B10: 44618
+    ST_CDIST: 370
+    ST_DRAD: 594
+    ST_EMIS: 9837
+    ST_EMSD: 141
+    ST_QA: 224
+    ST_TRAD: 9132
+    ST_URAD: 1150
+    cloud - cloud: 0
+    cloud confidence - clouds high prob: 0
+    cloud confidence - clouds low prob: 1
+    cloud confidence - clouds medium prob: 0
+    cloud shadow - cloud shadow: 0
+    shadow confidence - shadow high prob: 0
+    shadow confidence - shadow low prob: 1
+    shadow confidence - shadow medium prob: 0
+    snow - snow: 0
+    water - water: 0
+  type: Feature
+- geometry:
+    coordinates:
+    - -71.400233
+    - -42.967927
+    type: Point
+  id: '1'
+  properties:
+    QA_PIXEL: 21824
+    QA_RADSAT: 0
+    SR_B1: 8757
+    SR_B2: 9118
+    SR_B3: 10082
+    SR_B4: 10268
+    SR_B5: 18908
+    SR_B6: 14170
+    SR_B7: 11132
+    SR_QA_AEROSOL: 160
+    ST_ATRAN: 8293
+    ST_B10: 44621
+    ST_CDIST: 455
+    ST_DRAD: 578
+    ST_EMIS: 9831
+    ST_EMSD: 38
+    ST_QA: 207
+    ST_TRAD: 9137
+    ST_URAD: 1113
+    cloud - cloud: 0
+    cloud confidence - clouds high prob: 0
+    cloud confidence - clouds low prob: 1
+    cloud confidence - clouds medium prob: 0
+    cloud shadow - cloud shadow: 0
+    shadow confidence - shadow high prob: 0
+    shadow confidence - shadow low prob: 1
+    shadow confidence - shadow medium prob: 0
+    snow - snow: 0
+    water - water: 0
+  type: Feature
+- geometry:
+    coordinates:
+    - -71.457013
+    - -43.043511
+    type: Point
+  id: '2'
+  properties:
+    QA_PIXEL: 21824
+    QA_RADSAT: 0
+    SR_B1: 9188
+    SR_B2: 9497
+    SR_B3: 10704
+    SR_B4: 11100
+    SR_B5: 18163
+    SR_B6: 15896
+    SR_B7: 13516
+    SR_QA_AEROSOL: 96
+    ST_ATRAN: 8301
+    ST_B10: 45713
+    ST_CDIST: 48
+    ST_DRAD: 576
+    ST_EMIS: 9553
+    ST_EMSD: 151
+    ST_QA: 373
+    ST_TRAD: 9362
+    ST_URAD: 1110
+    cloud - cloud: 0
+    cloud confidence - clouds high prob: 0
+    cloud confidence - clouds low prob: 1
+    cloud confidence - clouds medium prob: 0
+    cloud shadow - cloud shadow: 0
+    shadow confidence - shadow high prob: 0
+    shadow confidence - shadow low prob: 1
+    shadow confidence - shadow medium prob: 0
+    snow - snow: 0
+    water - water: 0
+  type: Feature
+- geometry:
+    coordinates:
+    - -71.421715
+    - -43.174217
+    type: Point
+  id: '3'
+  properties:
+    QA_PIXEL: 21824
+    QA_RADSAT: 0
+    SR_B1: 8207
+    SR_B2: 8474
+    SR_B3: 9804
+    SR_B4: 9442
+    SR_B5: 21391
+    SR_B6: 13786
+    SR_B7: 10443
+    SR_QA_AEROSOL: 160
+    ST_ATRAN: 8428
+    ST_B10: 43731
+    ST_CDIST: 207
+    ST_DRAD: 527
+    ST_EMIS: 9676
+    ST_EMSD: 155
+    ST_QA: 279
+    ST_TRAD: 8685
+    ST_URAD: 1007
+    cloud - cloud: 0
+    cloud confidence - clouds high prob: 0
+    cloud confidence - clouds low prob: 1
+    cloud confidence - clouds medium prob: 0
+    cloud shadow - cloud shadow: 0
+    shadow confidence - shadow high prob: 0
+    shadow confidence - shadow low prob: 1
+    shadow confidence - shadow medium prob: 0
+    snow - snow: 0
+    water - water: 0
+  type: Feature
+- geometry:
+    coordinates:
+    - -71.692487
+    - -43.095786
+    type: Point
+  id: '4'
+  properties:
+    QA_PIXEL: 21952
+    QA_RADSAT: 0
+    SR_B1: 7660
+    SR_B2: 7757
+    SR_B3: 7539
+    SR_B4: 7137
+    SR_B5: 7214
+    SR_B6: 7369
+    SR_B7: 7419
+    SR_QA_AEROSOL: 164
+    ST_ATRAN: 8281
+    ST_B10: 40731
+    ST_CDIST: 73
+    ST_DRAD: 575
+    ST_EMIS: 9880
+    ST_EMSD: 0
+    ST_QA: 355
+    ST_TRAD: 7675
+    ST_URAD: 1112
+    cloud - cloud: 0
+    cloud confidence - clouds high prob: 0
+    cloud confidence - clouds low prob: 1
+    cloud confidence - clouds medium prob: 0
+    cloud shadow - cloud shadow: 0
+    shadow confidence - shadow high prob: 0
+    shadow confidence - shadow low prob: 1
+    shadow confidence - shadow medium prob: 0
+    snow - snow: 0
+    water - water: 1
+  type: Feature
+- geometry:
+    coordinates:
+    - -71.717352
+    - -42.998725
+    type: Point
+  id: '5'
+  properties:
+    QA_PIXEL: 23888
+    QA_RADSAT: 0
+    SR_B1: 7234
+    SR_B2: 7267
+    SR_B3: 7409
+    SR_B4: 7168
+    SR_B5: 9826
+    SR_B6: 7890
+    SR_B7: 7526
+    SR_QA_AEROSOL: 164
+    ST_ATRAN: 8313
+    ST_B10: 40498
+    ST_CDIST: 33
+    ST_DRAD: 559
+    ST_EMIS: 9904
+    ST_EMSD: 209
+    ST_QA: 465
+    ST_TRAD: 7598
+    ST_URAD: 1079
+    cloud - cloud: 0
+    cloud confidence - clouds high prob: 0
+    cloud confidence - clouds low prob: 1
+    cloud confidence - clouds medium prob: 0
+    cloud shadow - cloud shadow: 1
+    shadow confidence - shadow high prob: 1
+    shadow confidence - shadow low prob: 0
+    shadow confidence - shadow medium prob: 0
+    snow - snow: 0
+    water - water: 0
+  type: Feature
+- geometry:
+    coordinates:
+    - -71.611959
+    - -43.151053
+    type: Point
+  id: '6'
+  properties:
+    QA_PIXEL: 22280
+    QA_RADSAT: 0
+    SR_B1: 21557
+    SR_B2: 22022
+    SR_B3: 22455
+    SR_B4: 22805
+    SR_B5: 27873
+    SR_B6: 23098
+    SR_B7: 21153
+    SR_QA_AEROSOL: 96
+    ST_ATRAN: 8251
+    ST_B10: 37429
+    ST_CDIST: 0
+    ST_DRAD: 589
+    ST_EMIS: 9785
+    ST_EMSD: 59
+    ST_QA: 632
+    ST_TRAD: 6511
+    ST_URAD: 1141
+    cloud - cloud: 1
+    cloud confidence - clouds high prob: 1
+    cloud confidence - clouds low prob: 0
+    cloud confidence - clouds medium prob: 0
+    cloud shadow - cloud shadow: 0
+    shadow confidence - shadow high prob: 0
+    shadow confidence - shadow low prob: 1
+    shadow confidence - shadow medium prob: 0
+    snow - snow: 0
+    water - water: 0
+  type: Feature
+- geometry:
+    coordinates:
+    - -71.682779
+    - -43.178612
+    type: Point
+  id: '7'
+  properties:
+    QA_PIXEL: 21824
+    QA_RADSAT: 0
+    SR_B1: 8454
+    SR_B2: 8504
+    SR_B3: 9072
+    SR_B4: 8647
+    SR_B5: 15291
+    SR_B6: 12358
+    SR_B7: 10203
+    SR_QA_AEROSOL: 96
+    ST_ATRAN: 8260
+    ST_B10: 43558
+    ST_CDIST: 47
+    ST_DRAD: 584
+    ST_EMIS: 9805
+    ST_EMSD: 68
+    ST_QA: 376
+    ST_TRAD: 8685
+    ST_URAD: 1131
+    cloud - cloud: 0
+    cloud confidence - clouds high prob: 0
+    cloud confidence - clouds low prob: 1
+    cloud confidence - clouds medium prob: 0
+    cloud shadow - cloud shadow: 0
+    shadow confidence - shadow high prob: 0
+    shadow confidence - shadow low prob: 1
+    shadow confidence - shadow medium prob: 0
+    snow - snow: 0
+    water - water: 0
+  type: Feature
+- geometry:
+    coordinates:
+    - -71.639914
+    - -42.988605
+    type: Point
+  id: '8'
+  properties:
+    QA_PIXEL: 22280
+    QA_RADSAT: 0
+    SR_B1: 7419
+    SR_B2: 8856
+    SR_B3: 9832
+    SR_B4: 10910
+    SR_B5: 20082
+    SR_B6: 15667
+    SR_B7: 14434
+    SR_QA_AEROSOL: 224
+    ST_ATRAN: 8670
+    ST_B10: 36914
+    ST_CDIST: 0
+    ST_DRAD: 434
+    ST_EMIS: 9829
+    ST_EMSD: 28
+    ST_QA: 637
+    ST_TRAD: 6303
+    ST_URAD: 812
+    cloud - cloud: 1
+    cloud confidence - clouds high prob: 1
+    cloud confidence - clouds low prob: 0
+    cloud confidence - clouds medium prob: 0
+    cloud shadow - cloud shadow: 0
+    shadow confidence - shadow high prob: 0
+    shadow confidence - shadow low prob: 1
+    shadow confidence - shadow medium prob: 0
+    snow - snow: 0
+    water - water: 0
+  type: Feature
+- geometry:
+    coordinates:
+    - -71.599761
+    - -43.169497
+    type: Point
+  id: '9'
+  properties:
+    QA_PIXEL: 21824
+    QA_RADSAT: 0
+    SR_B1: 7909
+    SR_B2: 7947
+    SR_B3: 8659
+    SR_B4: 8242
+    SR_B5: 15091
+    SR_B6: 11310
+    SR_B7: 9269
+    SR_QA_AEROSOL: 130
+    ST_ATRAN: 8228
+    ST_B10: 43956
+    ST_CDIST: 76
+    ST_DRAD: 598
+    ST_EMIS: 9845
+    ST_EMSD: 82
+    ST_QA: 344
+    ST_TRAD: 8869
+    ST_URAD: 1161
+    cloud - cloud: 0
+    cloud confidence - clouds high prob: 0
+    cloud confidence - clouds low prob: 1
+    cloud confidence - clouds medium prob: 0
+    cloud shadow - cloud shadow: 0
+    shadow confidence - shadow high prob: 0
+    shadow confidence - shadow low prob: 1
+    shadow confidence - shadow medium prob: 0
+    snow - snow: 0
+    water - water: 0
+  type: Feature
+type: FeatureCollection

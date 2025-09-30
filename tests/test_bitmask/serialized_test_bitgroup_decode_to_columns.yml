@@ -1,0 +1,135 @@
+result: '0'
+values:
+  '0':
+    functionInvocationValue:
+      arguments:
+        baseAlgorithm:
+          functionDefinitionValue:
+            argumentNames:
+            - _MAPPING_VAR_0_0
+            body: '1'
+        collection:
+          functionInvocationValue:
+            arguments:
+              baseAlgorithm:
+                functionDefinitionValue:
+                  argumentNames:
+                  - _MAPPING_VAR_0_0
+                  body: '3'
+              collection:
+                functionInvocationValue:
+                  arguments:
+                    baseAlgorithm:
+                      functionDefinitionValue:
+                        argumentNames:
+                        - _MAPPING_VAR_0_0
+                        body: '4'
+                    collection:
+                      functionInvocationValue:
+                        arguments:
+                          collection:
+                            functionInvocationValue:
+                              arguments:
+                                points:
+                                  constantValue: 10
+                                region:
+                                  functionInvocationValue:
+                                    arguments:
+                                      coordinates:
+                                        constantValue:
+                                        - - - -71.72
+                                            - -42.96
+                                          - - -71.72
+                                            - -43.18
+                                          - - -71.39
+                                            - -43.18
+                                          - - -71.39
+                                            - -42.96
+                                      evenOdd:
+                                        constantValue: true
+                                    functionName: GeometryConstructors.Polygon
+                              functionName: FeatureCollection.randomPoints
+                          image:
+                            functionInvocationValue:
+                              arguments:
+                                id:
+                                  constantValue: LANDSAT/LC08/C02/T1_L2/LC08_231090_20240107
+                              functionName: Image.load
+                          reducer:
+                            functionInvocationValue:
+                              arguments: {}
+                              functionName: Reducer.first
+                          scale:
+                            constantValue: 30
+                        functionName: Image.reduceRegions
+                  functionName: Collection.map
+            functionName: Collection.map
+      functionName: Collection.map
+  '1':
+    functionInvocationValue:
+      arguments:
+        key:
+          constantValue: cloud - high
+        object:
+          argumentReference: _MAPPING_VAR_0_0
+        value:
+          functionInvocationValue:
+            arguments:
+              left:
+                valueReference: '2'
+              right:
+                constantValue: 3
+            functionName: Number.eq
+      functionName: Element.set
+  '2':
+    functionInvocationValue:
+      arguments:
+        left:
+          functionInvocationValue:
+            arguments:
+              left:
+                functionInvocationValue:
+                  arguments:
+                    object:
+                      argumentReference: _MAPPING_VAR_0_0
+                    property:
+                      constantValue: QA_PIXEL
+                  functionName: Element.get
+              right:
+                constantValue: 8
+            functionName: Number.rightShift
+        right:
+          constantValue: 3
+      functionName: Number.bitwiseAnd
+  '3':
+    functionInvocationValue:
+      arguments:
+        key:
+          constantValue: cloud - medium
+        object:
+          argumentReference: _MAPPING_VAR_0_0
+        value:
+          functionInvocationValue:
+            arguments:
+              left:
+                valueReference: '2'
+              right:
+                constantValue: 2
+            functionName: Number.eq
+      functionName: Element.set
+  '4':
+    functionInvocationValue:
+      arguments:
+        key:
+          constantValue: cloud - low
+        object:
+          argumentReference: _MAPPING_VAR_0_0
+        value:
+          functionInvocationValue:
+            arguments:
+              left:
+                valueReference: '2'
+              right:
+                constantValue: 1
+            functionName: Number.eq
+      functionName: Element.set

@@ -1,0 +1,80 @@
+result: '0'
+values:
+  '0':
+    functionInvocationValue:
+      arguments:
+        geometry:
+          functionInvocationValue:
+            arguments:
+              coordinates:
+                constantValue:
+                - - - -71.72
+                    - -42.96
+                  - - -71.72
+                    - -43.18
+                  - - -71.39
+                    - -43.18
+                  - - -71.39
+                    - -42.96
+              evenOdd:
+                constantValue: true
+            functionName: GeometryConstructors.Polygon
+        input:
+          functionInvocationValue:
+            arguments:
+              image:
+                valueReference: '1'
+              mask:
+                functionInvocationValue:
+                  arguments:
+                    input:
+                      functionInvocationValue:
+                        arguments:
+                          image1:
+                            functionInvocationValue:
+                              arguments:
+                                image1:
+                                  functionInvocationValue:
+                                    arguments:
+                                      image1:
+                                        functionInvocationValue:
+                                          arguments:
+                                            bandSelectors:
+                                              constantValue:
+                                              - QA_PIXEL
+                                            input:
+                                              valueReference: '1'
+                                          functionName: Image.select
+                                      image2:
+                                        functionInvocationValue:
+                                          arguments:
+                                            value:
+                                              constantValue: 8
+                                          functionName: Image.constant
+                                    functionName: Image.rightShift
+                                image2:
+                                  valueReference: '2'
+                              functionName: Image.bitwiseAnd
+                          image2:
+                            valueReference: '2'
+                        functionName: Image.eq
+                    names:
+                      constantValue:
+                      - cloud - high
+                  functionName: Image.rename
+            functionName: Image.updateMask
+        scale:
+          constantValue: 30
+      functionName: Image.clipToBoundsAndScale
+  '1':
+    functionInvocationValue:
+      arguments:
+        id:
+          constantValue: LANDSAT/LC08/C02/T1_L2/LC08_231090_20240107
+      functionName: Image.load
+  '2':
+    functionInvocationValue:
+      arguments:
+        value:
+          constantValue: 3
+      functionName: Image.constant
